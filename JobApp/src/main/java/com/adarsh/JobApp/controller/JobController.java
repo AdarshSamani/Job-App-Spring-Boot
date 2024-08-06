@@ -25,7 +25,7 @@ public class JobController {
 
     @GetMapping({"/","home"})
     public String home(){
-//        service.load();
+        service.load();
         return "home";
     }
 
